@@ -1,4 +1,6 @@
 import mausLogo from "@/assets/maus-logo.svg";
+import boostrRocket from "@/assets/boostr-rocket.png";
+
 
 const BG_VIDEO =
   "https://ttycsupkjrsqjvqaxtca.supabase.co/storage/v1/object/public/MAUS%20VIDEOS/services_nofade.mp4";
@@ -137,40 +139,53 @@ export function Slide03Boostr() {
                 filter: "blur(20px)",
               }}
             />
-            {/* Disc */}
+            {/* Pulsing orbit halo */}
             <div
-              className="relative flex items-center justify-center rounded-full"
+              className="absolute rounded-full orbit-pulse"
               style={{
-                width: 420,
-                height: 420,
-                background:
-                  "linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02))",
-                border: "1px solid rgba(255,255,255,0.18)",
+                width: 460,
+                height: 460,
+                left: "50%",
+                top: "50%",
+                marginLeft: -230,
+                marginTop: -230,
+                border: "1px solid rgba(197,184,255,0.35)",
                 boxShadow:
-                  "inset 0 1px 0 rgba(255,255,255,0.25), 0 30px 80px rgba(20,10,80,0.5)",
-                backdropFilter: "blur(6px)",
+                  "inset 0 0 60px rgba(138,123,255,0.25), 0 0 80px rgba(79,70,229,0.35)",
               }}
-            >
-              <span
-                style={{
-                  fontFamily: "'Inria Serif', serif",
-                  fontSize: 96,
-                  fontWeight: 700,
-                  letterSpacing: "-0.04em",
-                  background:
-                    "linear-gradient(180deg, #ffffff 0%, #c5b8ff 100%)",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent",
-                  backgroundClip: "text",
-                }}
-              >
-                Boostr
-              </span>
-            </div>
+            />
+            {/* Rocket */}
+            <img
+              src={boostrRocket}
+              alt="Boostr"
+              width={1024}
+              height={1024}
+              loading="lazy"
+              className="relative rocket-float"
+              style={{
+                width: 360,
+                height: 360,
+                filter: "drop-shadow(0 30px 60px rgba(20,10,80,0.55))",
+              }}
+            />
+          </div>
+
+          {/* BOOSTR wordmark */}
+          <div
+            className="mt-[28px]"
+            style={{
+              fontFamily: "'Roboto', sans-serif",
+              fontSize: 72,
+              fontWeight: 700,
+              letterSpacing: "0.06em",
+              color: "#ffffff",
+            }}
+          >
+            BOOSTR
           </div>
 
           <div
-            className="mt-[28px] text-white/55"
+            className="mt-[14px] text-white/55"
             style={{
               fontFamily: "'Roboto', sans-serif",
               fontSize: 18,
@@ -181,6 +196,7 @@ export function Slide03Boostr() {
             Recognition Platform
           </div>
         </div>
+
       </div>
 
       {/* Hairline accent */}
