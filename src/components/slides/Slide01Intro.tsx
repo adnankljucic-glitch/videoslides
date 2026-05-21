@@ -16,8 +16,9 @@ export function Slide01Intro() {
       <div
         className="absolute top-[96px] right-[100px] text-white/50 slide-fade-in"
         style={{
-          fontFamily: "'Inter', sans-serif",
+          fontFamily: "'Roboto', sans-serif",
           fontSize: 20,
+          fontWeight: 400,
           letterSpacing: "0.2em",
           animationDelay: "100ms",
         }}
@@ -30,9 +31,9 @@ export function Slide01Intro() {
         <h1
           className="text-white slide-rise"
           style={{
-            fontFamily: "'Cormorant Garamond', 'Times New Roman', serif",
+            fontFamily: "'Inria Serif', 'Times New Roman', serif",
             fontSize: 200,
-            fontWeight: 500,
+            fontWeight: 700,
             lineHeight: 1,
             letterSpacing: "-0.03em",
             animationDelay: "300ms",
@@ -44,12 +45,12 @@ export function Slide01Intro() {
         <p
           className="mt-[56px] text-white/85 slide-rise"
           style={{
-            fontFamily: "'Cormorant Garamond', 'Times New Roman', serif",
-            fontSize: 48,
-            fontWeight: 300,
-            lineHeight: 1.25,
-            letterSpacing: "-0.01em",
-            maxWidth: 1400,
+            fontFamily: "'Roboto', sans-serif",
+            fontSize: 36,
+            fontWeight: 400,
+            lineHeight: 1.4,
+            letterSpacing: "0",
+            maxWidth: 1300,
             animationDelay: "650ms",
           }}
         >
@@ -61,8 +62,9 @@ export function Slide01Intro() {
         <div
           className="mt-[96px] flex items-center gap-[28px] text-white/60 slide-fade-in"
           style={{
-            fontFamily: "'Inter', sans-serif",
-            fontSize: 22,
+            fontFamily: "'Roboto', sans-serif",
+            fontSize: 20,
+            fontWeight: 400,
             letterSpacing: "0.35em",
             textTransform: "uppercase",
             animationDelay: "1000ms",
