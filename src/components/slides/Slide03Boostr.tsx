@@ -1,9 +1,41 @@
 import mausLogo from "@/assets/maus-logo.svg";
-import { SlideLayout } from "./SlideLayout";
+
+const BG_VIDEO =
+  "https://ttycsupkjrsqjvqaxtca.supabase.co/storage/v1/object/public/MAUS%20VIDEOS/services_nofade.mp4";
+
+const SLIDE_GRADIENT =
+  "radial-gradient(ellipse 90% 80% at 18% 22%, #2a1a6e 0%, #1a0d4a 28%, #0d0628 62%, #060218 100%)";
 
 export function Slide03Boostr() {
   return (
-    <SlideLayout>
+    <div className="relative w-full h-full overflow-hidden text-white">
+      {/* Background video */}
+      <video
+        src={BG_VIDEO}
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+      {/* Slide-2 gradient overlay at 70% */}
+      <div
+        aria-hidden
+        className="absolute inset-0 pointer-events-none"
+        style={{ background: SLIDE_GRADIENT, opacity: 0.7 }}
+      />
+      {/* Subtle accent vignette (matches SlideLayout) */}
+      <div
+        aria-hidden
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background:
+            "radial-gradient(ellipse 60% 50% at 80% 90%, rgba(80, 50, 200, 0.18) 0%, transparent 70%)",
+        }}
+      />
+
+      <div className="relative w-full h-full">
+
       {/* MAUS logo */}
       <img
         src={mausLogo}
@@ -161,6 +193,7 @@ export function Slide03Boostr() {
           animationDelay: "1400ms",
         }}
       />
-    </SlideLayout>
+      </div>
+    </div>
   );
 }
