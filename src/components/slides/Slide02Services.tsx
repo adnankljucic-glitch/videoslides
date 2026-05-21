@@ -2,10 +2,10 @@ import mausLogo from "@/assets/maus-logo.svg";
 import { SlideLayout } from "./SlideLayout";
 
 const services = [
-  "Strategy & Execution",
-  "Software Engineering",
-  "AI & Automation",
-  "Scale & Performance",
+  { n: "01", title: "Strategy & Execution" },
+  { n: "02", title: "Software Engineering" },
+  { n: "03", title: "AI & Automation" },
+  { n: "04", title: "Scale & Performance" },
 ];
 
 export function Slide02Services() {
@@ -32,64 +32,103 @@ export function Slide02Services() {
         02 / —
       </div>
 
-      {/* Kicker */}
-      <div
-        className="absolute top-[260px] left-[160px] text-white/55 slide-fade-in"
-        style={{
-          fontFamily: "'Roboto', sans-serif",
-          fontSize: 22,
-          fontWeight: 500,
-          letterSpacing: "0.45em",
-          textTransform: "uppercase",
-          animationDelay: "200ms",
-        }}
-      >
-        Services
-      </div>
-
-      {/* Headline — big for TV */}
-      <h1
-        className="absolute top-[320px] left-[160px] text-white slide-rise"
-        style={{
-          fontFamily: "'Inria Serif', 'Times New Roman', serif",
-          fontSize: 140,
-          fontWeight: 700,
-          lineHeight: 1.02,
-          letterSpacing: "-0.03em",
-          maxWidth: 1600,
-          animationDelay: "300ms",
-        }}
-      >
-        Strategy, engineering<br />and AI — unified.
-      </h1>
-
-      {/* Small service list — no body copy */}
-      <div
-        className="absolute left-[160px] right-[160px] flex flex-wrap items-center gap-x-[56px] gap-y-[20px]"
-        style={{ bottom: 140 }}
-      >
-        {services.map((s, i) => (
+      {/* Two-column body */}
+      <div className="absolute inset-0 grid grid-cols-[1.05fr_1fr] items-center gap-[80px] px-[160px]">
+        {/* LEFT */}
+        <div>
           <div
-            key={s}
-            className="flex items-center gap-[56px] slide-fade-in"
-            style={{ animationDelay: `${700 + i * 150}ms` }}
+            className="text-white/55 slide-fade-in"
+            style={{
+              fontFamily: "'Roboto', sans-serif",
+              fontSize: 22,
+              fontWeight: 500,
+              letterSpacing: "0.45em",
+              textTransform: "uppercase",
+              animationDelay: "200ms",
+            }}
           >
-            <span
-              className="text-white/90"
+            Services
+          </div>
+
+          <h1
+            className="mt-[36px] text-white slide-rise"
+            style={{
+              fontFamily: "'Inria Serif', 'Times New Roman', serif",
+              fontSize: 110,
+              fontWeight: 700,
+              lineHeight: 1.0,
+              letterSpacing: "-0.035em",
+              animationDelay: "300ms",
+            }}
+          >
+            Strategy,
+            <br />
+            engineering
+            <br />
+            and AI — unified.
+          </h1>
+
+          <p
+            className="mt-[48px] text-white/75 slide-rise"
+            style={{
+              fontFamily: "'Roboto', sans-serif",
+              fontSize: 30,
+              fontWeight: 400,
+              lineHeight: 1.55,
+              maxWidth: 720,
+              animationDelay: "650ms",
+            }}
+          >
+            From idea to production — no shortcuts,
+            <br />
+            no technical debt.
+          </p>
+        </div>
+
+        {/* RIGHT — 4 service boxes */}
+        <div className="grid grid-cols-2 gap-[28px]">
+          {services.map((s, i) => (
+            <div
+              key={s.n}
+              className="relative flex flex-col justify-between slide-rise"
               style={{
-                fontFamily: "'Roboto', sans-serif",
-                fontSize: 28,
-                fontWeight: 500,
-                letterSpacing: "0.02em",
+                height: 280,
+                padding: "32px 32px 28px",
+                borderRadius: 20,
+                background:
+                  "linear-gradient(155deg, rgba(255,255,255,0.07), rgba(255,255,255,0.015))",
+                border: "1px solid rgba(255,255,255,0.14)",
+                boxShadow:
+                  "inset 0 1px 0 rgba(255,255,255,0.18), 0 20px 50px rgba(10,5,40,0.35)",
+                backdropFilter: "blur(4px)",
+                animationDelay: `${600 + i * 120}ms`,
               }}
             >
-              {s}
-            </span>
-            {i < services.length - 1 && (
-              <span className="text-white/25" style={{ fontSize: 28 }}>·</span>
-            )}
-          </div>
-        ))}
+              <span
+                className="text-white/40"
+                style={{
+                  fontFamily: "'Inria Serif', serif",
+                  fontSize: 24,
+                  letterSpacing: "0.15em",
+                }}
+              >
+                {s.n}
+              </span>
+              <h3
+                className="text-white"
+                style={{
+                  fontFamily: "'Inria Serif', serif",
+                  fontSize: 38,
+                  fontWeight: 700,
+                  lineHeight: 1.05,
+                  letterSpacing: "-0.02em",
+                }}
+              >
+                {s.title}
+              </h3>
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* Hairline accent */}
