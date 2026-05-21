@@ -48,7 +48,7 @@ export function Slide01Intro() {
             fontFamily: "'Roboto', sans-serif",
             fontSize: 36,
             fontWeight: 400,
-            lineHeight: 1.4,
+            lineHeight: 1.7,
             letterSpacing: "0",
             maxWidth: 1300,
             animationDelay: "650ms",
