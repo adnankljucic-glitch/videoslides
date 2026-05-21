@@ -1,4 +1,6 @@
 import mausLogo from "@/assets/maus-logo.svg";
+import boostrRocket from "@/assets/boostr-rocket.png";
+
 
 const BG_VIDEO =
   "https://ttycsupkjrsqjvqaxtca.supabase.co/storage/v1/object/public/MAUS%20VIDEOS/services_nofade.mp4";
