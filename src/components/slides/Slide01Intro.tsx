@@ -70,11 +70,12 @@ export function Slide01Intro() {
             animationDelay: "1000ms",
           }}
         >
-          <span>Aarhus</span>
-          <span className="text-white/30">·</span>
           <span>Sarajevo</span>
-          <span className="text-white/30">·</span>
+          <span className="text-white/30">—</span>
+          <span>Bosnia and Herzegovina</span>
+          <span className="text-white/30">—</span>
           <span>Building globally</span>
+
         </div>
       </div>
 
