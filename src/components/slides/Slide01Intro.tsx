@@ -117,6 +117,8 @@ export function Slide01Intro() {
           animationDelay: "1200ms",
         }}
       />
-    </SlideLayout>
+      </div>
+    </div>
   );
 }
+
