@@ -193,6 +193,7 @@ export function Slide03Boostr() {
           animationDelay: "1400ms",
         }}
       />
-    </SlideLayout>
+      </div>
+    </div>
   );
 }
