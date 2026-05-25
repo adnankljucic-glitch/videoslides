@@ -72,20 +72,31 @@ export function Slide10Outro() {
         </div>
 
         <div
-          className="mt-[48px] flex items-center gap-[28px] text-white/80 slide-fade-in"
-          style={{
-            fontFamily: "'Barlow', sans-serif",
-            fontSize: 28,
-            fontWeight: 500,
-            letterSpacing: "0.04em",
-            animationDelay: "950ms",
-          }}
+          className="mt-[40px] flex items-center gap-[20px] slide-fade-in"
+          style={{ animationDelay: "950ms" }}
         >
-          <a href="mailto:hello@maus.ba" className="hover:text-white transition">
+          <a
+            href="mailto:hello@maus.ba"
+            className="px-[24px] py-[12px] rounded-full border border-white/30 text-white/90 hover:text-white hover:border-white/60 hover:bg-white/10 transition-all duration-300"
+            style={{
+              fontFamily: "'Barlow', sans-serif",
+              fontSize: 28,
+              fontWeight: 600,
+              letterSpacing: "0.02em",
+            }}
+          >
             hello@maus.ba
           </a>
-          <span className="text-white/30">·</span>
-          <a href="https://maus.ba" className="hover:text-white transition">
+          <a
+            href="https://maus.ba"
+            className="px-[24px] py-[12px] rounded-full border border-white/30 text-white/90 hover:text-white hover:border-white/60 hover:bg-white/10 transition-all duration-300"
+            style={{
+              fontFamily: "'Barlow', sans-serif",
+              fontSize: 28,
+              fontWeight: 600,
+              letterSpacing: "0.02em",
+            }}
+          >
             maus.ba
           </a>
         </div>
