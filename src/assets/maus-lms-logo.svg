@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#0E0E0E"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="26" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Back bubble -->
+    <path d="M168 132 H352 a40 40 0 0 1 40 40 v112 a40 40 0 0 1 -40 40 H300 l-46 44 v-44 H168 a40 40 0 0 1 -40 -40 V172 a40 40 0 0 1 40 -40 z"/>
+    <!-- Front bubble -->
+    <path d="M196 232 H380 a40 40 0 0 1 40 40 v92 a40 40 0 0 1 -40 40 H272 l-46 40 v-40 H196 a40 40 0 0 1 -40 -40 v-92 a40 40 0 0 1 40 -40 z" fill="#0E0E0E"/>
+  </g>
+</svg>
