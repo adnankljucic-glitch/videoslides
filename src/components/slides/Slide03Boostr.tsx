@@ -56,7 +56,7 @@ export function Slide03Boostr() {
           animationDelay: "100ms",
         }}
       >
-        03 / —
+        04 / —
       </div>
 
       {/* Two-column layout */}
