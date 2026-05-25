@@ -25,9 +25,9 @@ export function Slide10Outro() {
           className="mt-[48px] text-white/85 slide-rise"
           style={{
             fontFamily: "'Inria Serif', 'Times New Roman', serif",
-            fontSize: 40,
-            fontWeight: 400,
-            lineHeight: 1.35,
+            fontSize: 56,
+            fontWeight: 700,
+            lineHeight: 1.25,
             letterSpacing: "-0.02em",
             maxWidth: 1280,
             animationDelay: "300ms",
@@ -42,9 +42,9 @@ export function Slide10Outro() {
           className="mt-[40px] text-white slide-rise"
           style={{
             fontFamily: "'Inria Serif', 'Times New Roman', serif",
-            fontSize: 40,
+            fontSize: 56,
             fontWeight: 700,
-            lineHeight: 1.35,
+            lineHeight: 1.25,
             letterSpacing: "-0.02em",
             background:
               "linear-gradient(180deg, #ffffff 0%, rgba(255,255,255,0.6) 100%)",
@@ -61,9 +61,10 @@ export function Slide10Outro() {
         <div
           className="mt-[40px] text-white slide-rise"
           style={{
-            fontFamily: "'Inria Serif', serif",
-            fontSize: 40,
-            fontWeight: 600,
+            fontFamily: "'Inria Serif', 'Times New Roman', serif",
+            fontSize: 56,
+            fontWeight: 700,
+            lineHeight: 1.25,
             letterSpacing: "-0.02em",
             animationDelay: "750ms",
           }}
