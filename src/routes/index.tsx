@@ -6,6 +6,7 @@ import { Slide02Services } from "@/components/slides/Slide02Services";
 import { Slide03Products } from "@/components/slides/Slide03Products";
 import { Slide03Boostr } from "@/components/slides/Slide03Boostr";
 import { Slide04LMS } from "@/components/slides/Slide04LMS";
+import { Slide05Rssheap } from "@/components/slides/Slide05Rssheap";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -27,7 +28,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const slides = [Slide01Intro, Slide02Services, Slide03Products, Slide03Boostr, Slide04LMS];
+const slides = [Slide01Intro, Slide02Services, Slide03Products, Slide03Boostr, Slide04LMS, Slide05Rssheap];
 
 function Index() {
   const [i, setI] = useState(1);
