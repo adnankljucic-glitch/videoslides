@@ -1,28 +1,56 @@
 import mausLogo from "@/assets/maus-logo.svg";
 import { SlideLayout } from "./SlideLayout";
 
+// Hand-drawn sketchy illustrations (MAUS style)
+const sketchStroke = {
+  stroke: "currentColor",
+  strokeWidth: 1.4,
+  strokeLinecap: "round" as const,
+  strokeLinejoin: "round" as const,
+  fill: "none",
+};
+
 const HealthcareIcon = () => (
-  <svg viewBox="0 0 64 64" fill="none" className="w-full h-full">
-    <circle cx="32" cy="32" r="30" stroke="currentColor" strokeWidth="1.2" opacity="0.35" />
-    <path d="M32 18 V46 M18 32 H46" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+  <svg viewBox="0 0 120 120" className="w-full h-full" style={{ filter: "url(#sketch-rough)" }}>
+    {/* wobbly heart */}
+    <path
+      d="M60 92 C 30 74, 18 56, 24 40 C 28 28, 44 24, 52 34 C 56 38, 58 42, 60 46 C 62 42, 64 38, 68 34 C 76 24, 92 28, 96 40 C 102 56, 90 74, 60 92 Z"
+      {...sketchStroke}
+    />
+    {/* pulse line inside */}
+    <path d="M34 58 L46 58 L50 50 L56 66 L62 54 L68 60 L86 60" {...sketchStroke} strokeWidth={1.2} opacity={0.85} />
   </svg>
 );
 
 const BookingIcon = () => (
-  <svg viewBox="0 0 64 64" fill="none" className="w-full h-full">
-    <circle cx="32" cy="32" r="30" stroke="currentColor" strokeWidth="1.2" opacity="0.35" />
-    <path d="M14 38 L50 24 L46 36 L18 44 Z" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />
-    <path d="M28 32 L34 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+  <svg viewBox="0 0 120 120" className="w-full h-full">
+    {/* little cottage with a path */}
+    <path d="M30 78 L60 50 L90 78" {...sketchStroke} />
+    <path d="M38 74 L38 96 L82 96 L82 74" {...sketchStroke} />
+    <path d="M54 96 L54 80 L66 80 L66 96" {...sketchStroke} />
+    <path d="M72 64 L72 56 L78 56 L78 70" {...sketchStroke} />
+    {/* sun */}
+    <circle cx="92" cy="32" r="6" {...sketchStroke} />
+    <path d="M92 18 L92 22 M92 42 L92 46 M78 32 L82 32 M102 32 L106 32 M82 22 L85 25 M99 25 L102 22" {...sketchStroke} />
+    {/* wavy path / waves */}
+    <path d="M16 104 Q 28 98, 40 104 T 64 104 T 88 104 T 110 104" {...sketchStroke} opacity={0.7} />
   </svg>
 );
 
 const EventsIcon = () => (
-  <svg viewBox="0 0 64 64" fill="none" className="w-full h-full">
-    <circle cx="32" cy="32" r="30" stroke="currentColor" strokeWidth="1.2" opacity="0.35" />
-    <path d="M16 26 a4 4 0 0 0 0 8 V42 a2 2 0 0 0 2 2 H46 a2 2 0 0 0 2 -2 V34 a4 4 0 0 0 0 -8 V22 a2 2 0 0 0 -2 -2 H18 a2 2 0 0 0 -2 2 Z" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />
-    <path d="M32 22 V42" stroke="currentColor" strokeWidth="1.5" strokeDasharray="3 3" />
+  <svg viewBox="0 0 120 120" className="w-full h-full">
+    {/* ticket */}
+    <path
+      d="M22 46 A6 6 0 0 1 28 52 A6 6 0 0 1 22 58 L22 74 A6 6 0 0 1 28 80 A6 6 0 0 1 22 86 L22 92 L98 92 L98 86 A6 6 0 0 1 92 80 A6 6 0 0 1 98 74 L98 58 A6 6 0 0 1 92 52 A6 6 0 0 1 98 46 L98 40 L22 40 Z"
+      {...sketchStroke}
+    />
+    <path d="M52 46 L52 86" {...sketchStroke} strokeDasharray="3 4" />
+    <path d="M64 56 L88 56 M64 66 L84 66 M64 76 L86 76" {...sketchStroke} strokeWidth={1.2} opacity={0.85} />
+    {/* confetti */}
+    <path d="M30 24 L34 28 M40 18 L40 24 M52 22 L56 18 M70 16 L74 22 M86 24 L90 20 M100 30 L104 28" {...sketchStroke} strokeWidth={1.2} opacity={0.85} />
   </svg>
 );
+
 
 const industries = [
   { name: "Healthcare", Icon: HealthcareIcon },
