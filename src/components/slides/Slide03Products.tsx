@@ -42,7 +42,7 @@ export function Slide03Products() {
             style={{
               fontFamily: "'Barlow', sans-serif",
               fontSize: 22,
-              fontWeight: 500,
+              fontWeight: 600,
               letterSpacing: "0.45em",
               textTransform: "uppercase",
               animationDelay: "200ms",

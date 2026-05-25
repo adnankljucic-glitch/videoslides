@@ -37,7 +37,7 @@ export function Slide08Nordsee() {
             style={{
               fontFamily: "'Barlow', sans-serif",
               fontSize: 24,
-              fontWeight: 500,
+              fontWeight: 600,
               letterSpacing: "0.4em",
               textTransform: "uppercase",
               animationDelay: "200ms",
