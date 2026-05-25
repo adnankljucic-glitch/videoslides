@@ -15,16 +15,16 @@ export function Slide01Intro() {
         muted
         loop
         playsInline
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover bg-parallax-video"
       />
       <div
         aria-hidden
-        className="absolute inset-0 pointer-events-none"
+        className="absolute inset-0 pointer-events-none bg-parallax-overlay"
         style={{ background: SLIDE_GRADIENT, opacity: 0.7 }}
       />
       <div
         aria-hidden
-        className="absolute inset-0 pointer-events-none"
+        className="absolute inset-0 pointer-events-none bg-parallax-overlay-slow"
         style={{
           background:
             "radial-gradient(ellipse 60% 50% at 80% 90%, rgba(80, 50, 200, 0.18) 0%, transparent 70%)",
