@@ -15,12 +15,12 @@ export function Slide06Cases() {
 
       <div className="absolute inset-0 flex flex-col justify-center px-[160px]">
         <div
-          className="text-white/55 slide-fade-in"
+          className="text-white/60 slide-fade-in"
           style={{
             fontFamily: "'Roboto', sans-serif",
-            fontSize: 22,
+            fontSize: 24,
             fontWeight: 500,
-            letterSpacing: "0.45em",
+            letterSpacing: "0.4em",
             textTransform: "uppercase",
             animationDelay: "200ms",
           }}
@@ -29,14 +29,14 @@ export function Slide06Cases() {
         </div>
 
         <h1
-          className="mt-[36px] text-white slide-rise"
+          className="mt-[32px] text-white slide-rise"
           style={{
             fontFamily: "'Inria Serif', 'Times New Roman', serif",
-            fontSize: 120,
+            fontSize: 140,
             fontWeight: 700,
-            lineHeight: 1.0,
+            lineHeight: 0.95,
             letterSpacing: "-0.04em",
-            animationDelay: "300ms",
+            animationDelay: "350ms",
           }}
         >
           Built for the industries
@@ -44,7 +44,7 @@ export function Slide06Cases() {
           that move the world.
         </h1>
 
-        <div className="mt-[90px] flex flex-wrap items-baseline gap-x-[80px] gap-y-[24px]">
+        <div className="mt-[64px] flex flex-wrap items-baseline gap-x-[72px] gap-y-[20px]">
           {industries.map((name, i) => (
             <span
               key={name}
@@ -53,13 +53,13 @@ export function Slide06Cases() {
                 fontFamily: "'Inria Serif', serif",
                 fontSize: 64,
                 fontWeight: 700,
-                lineHeight: 1.05,
-                letterSpacing: "-0.025em",
+                lineHeight: 1.08,
+                letterSpacing: "-0.03em",
                 background:
                   "linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.65) 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
-                animationDelay: `${600 + i * 180}ms`,
+                animationDelay: `${550 + i * 160}ms`,
               }}
             >
               {name}
@@ -73,7 +73,7 @@ export function Slide06Cases() {
         style={{
           width: 120,
           background: "linear-gradient(90deg, rgba(255,255,255,0.5), transparent)",
-          animationDelay: "1400ms",
+          animationDelay: "1200ms",
         }}
       />
     </SlideLayout>
