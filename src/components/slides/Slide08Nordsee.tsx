@@ -35,7 +35,7 @@ export function Slide08Nordsee() {
           <div
             className="text-white/60 slide-fade-in"
             style={{
-              fontFamily: "'Roboto', sans-serif",
+              fontFamily: "'Barlow', sans-serif",
               fontSize: 24,
               fontWeight: 500,
               letterSpacing: "0.4em",
@@ -80,7 +80,7 @@ export function Slide08Nordsee() {
           <p
             className="mt-[32px] text-white/75 slide-rise"
             style={{
-              fontFamily: "'Roboto', sans-serif",
+              fontFamily: "'Barlow', sans-serif",
               fontSize: 28,
               fontWeight: 400,
               lineHeight: 1.45,

@@ -37,7 +37,7 @@ export function Slide07Systematic() {
             <div
               className="text-white/60 slide-fade-in"
               style={{
-                fontFamily: "'Roboto', sans-serif",
+                fontFamily: "'Barlow', sans-serif",
                 fontSize: 24,
                 fontWeight: 500,
                 letterSpacing: "0.4em",
@@ -81,7 +81,7 @@ export function Slide07Systematic() {
             <p
               className="mt-[32px] text-white/75 slide-rise"
               style={{
-                fontFamily: "'Roboto', sans-serif",
+                fontFamily: "'Barlow', sans-serif",
                 fontSize: 28,
                 fontWeight: 400,
                 lineHeight: 1.45,
@@ -129,7 +129,7 @@ export function Slide07Systematic() {
                 <div
                   className="mt-[16px] text-white/70"
                   style={{
-                    fontFamily: "'Roboto', sans-serif",
+                    fontFamily: "'Barlow', sans-serif",
                     fontSize: 26,
                     letterSpacing: "0.04em",
                   }}

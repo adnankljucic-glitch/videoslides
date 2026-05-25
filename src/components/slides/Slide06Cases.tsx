@@ -17,7 +17,7 @@ export function Slide06Cases() {
         <div
           className="text-white/60 slide-fade-in"
           style={{
-            fontFamily: "'Roboto', sans-serif",
+            fontFamily: "'Barlow', sans-serif",
             fontSize: 24,
             fontWeight: 500,
             letterSpacing: "0.4em",

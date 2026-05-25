@@ -26,7 +26,7 @@ export function Slide02Services() {
           <div
             className="text-white/55 slide-fade-in"
             style={{
-              fontFamily: "'Roboto', sans-serif",
+              fontFamily: "'Barlow', sans-serif",
               fontSize: 22,
               fontWeight: 500,
               letterSpacing: "0.45em",
@@ -58,7 +58,7 @@ export function Slide02Services() {
           <p
             className="mt-[48px] text-white/75 slide-rise"
             style={{
-              fontFamily: "'Roboto', sans-serif",
+              fontFamily: "'Barlow', sans-serif",
               fontSize: 30,
               fontWeight: 400,
               lineHeight: 1.55,
