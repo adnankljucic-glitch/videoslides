@@ -22,10 +22,10 @@ export function Slide10Outro() {
         />
 
         <p
-          className="mt-[64px] text-white/85 slide-rise"
+          className="mt-[48px] text-white/85 slide-rise"
           style={{
             fontFamily: "'Inria Serif', 'Times New Roman', serif",
-            fontSize: 44,
+            fontSize: 40,
             fontWeight: 400,
             lineHeight: 1.35,
             letterSpacing: "-0.02em",
@@ -39,13 +39,13 @@ export function Slide10Outro() {
         </p>
 
         <h1
-          className="mt-[64px] text-white slide-rise"
+          className="mt-[40px] text-white slide-rise"
           style={{
             fontFamily: "'Inria Serif', 'Times New Roman', serif",
-            fontSize: 84,
+            fontSize: 40,
             fontWeight: 700,
-            lineHeight: 1.05,
-            letterSpacing: "-0.04em",
+            lineHeight: 1.35,
+            letterSpacing: "-0.02em",
             background:
               "linear-gradient(180deg, #ffffff 0%, rgba(255,255,255,0.6) 100%)",
             WebkitBackgroundClip: "text",
@@ -59,10 +59,10 @@ export function Slide10Outro() {
         </h1>
 
         <div
-          className="mt-[56px] text-white slide-rise"
+          className="mt-[40px] text-white slide-rise"
           style={{
             fontFamily: "'Inria Serif', serif",
-            fontSize: 56,
+            fontSize: 40,
             fontWeight: 600,
             letterSpacing: "-0.02em",
             animationDelay: "750ms",
@@ -72,20 +72,31 @@ export function Slide10Outro() {
         </div>
 
         <div
-          className="mt-[48px] flex items-center gap-[28px] text-white/80 slide-fade-in"
-          style={{
-            fontFamily: "'Barlow', sans-serif",
-            fontSize: 28,
-            fontWeight: 500,
-            letterSpacing: "0.04em",
-            animationDelay: "950ms",
-          }}
+          className="mt-[40px] flex items-center gap-[20px] slide-fade-in"
+          style={{ animationDelay: "950ms" }}
         >
-          <a href="mailto:hello@maus.ba" className="hover:text-white transition">
+          <a
+            href="mailto:hello@maus.ba"
+            className="px-[24px] py-[12px] rounded-full border border-white/30 text-white/90 hover:text-white hover:border-white/60 hover:bg-white/10 transition-all duration-300"
+            style={{
+              fontFamily: "'Barlow', sans-serif",
+              fontSize: 28,
+              fontWeight: 600,
+              letterSpacing: "0.02em",
+            }}
+          >
             hello@maus.ba
           </a>
-          <span className="text-white/30">·</span>
-          <a href="https://maus.ba" className="hover:text-white transition">
+          <a
+            href="https://maus.ba"
+            className="px-[24px] py-[12px] rounded-full border border-white/30 text-white/90 hover:text-white hover:border-white/60 hover:bg-white/10 transition-all duration-300"
+            style={{
+              fontFamily: "'Barlow', sans-serif",
+              fontSize: 28,
+              fontWeight: 600,
+              letterSpacing: "0.02em",
+            }}
+          >
             maus.ba
           </a>
         </div>
