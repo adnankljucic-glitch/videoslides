@@ -1,6 +1,6 @@
 import mausLogo from "@/assets/maus-logo.svg";
 import boostrRocket from "@/assets/boostr-rocket.png";
-import mausLmsLogo from "@/assets/maus-lms-logo.png";
+import mausLmsLogo from "@/assets/maus-lms-logo.svg";
 import rssheapLogo from "@/assets/rssheap-logo.svg";
 import { SlideLayout } from "./SlideLayout";
 
