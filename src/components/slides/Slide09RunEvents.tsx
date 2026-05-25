@@ -47,10 +47,10 @@ export function Slide09RunEvents() {
           </div>
 
           <div
-            className="mt-[28px] text-white slide-rise"
+            className="mt-[32px] text-white slide-rise"
             style={{
               fontFamily: "'Inria Serif', 'Times New Roman', serif",
-              fontSize: 160,
+              fontSize: 140,
               fontWeight: 700,
               lineHeight: 0.95,
               letterSpacing: "-0.04em",
@@ -61,10 +61,10 @@ export function Slide09RunEvents() {
           </div>
 
           <h1
-            className="mt-[48px] text-white/95 slide-rise"
+            className="mt-[44px] text-white/95 slide-rise"
             style={{
               fontFamily: "'Inria Serif', 'Times New Roman', serif",
-              fontSize: 72,
+              fontSize: 64,
               fontWeight: 700,
               lineHeight: 1.08,
               letterSpacing: "-0.03em",
@@ -81,7 +81,7 @@ export function Slide09RunEvents() {
             className="mt-[32px] text-white/75 slide-rise"
             style={{
               fontFamily: "'Roboto', sans-serif",
-              fontSize: 30,
+              fontSize: 28,
               fontWeight: 400,
               lineHeight: 1.45,
               maxWidth: 1300,
@@ -92,19 +92,19 @@ export function Slide09RunEvents() {
           </p>
 
           {/* Stat row */}
-          <div className="mt-[44px] flex gap-[24px]">
+          <div className="mt-[40px] flex gap-[20px]">
             {["< 8s check-in", "4+ AI agents"].map((s, i) => (
               <div
                 key={s}
                 className="slide-rise text-white"
                 style={{
-                  padding: "20px 36px",
+                  padding: "18px 32px",
                   borderRadius: 999,
                   border: "1px solid rgba(255,255,255,0.22)",
                   background: "rgba(255,255,255,0.08)",
                   backdropFilter: "blur(6px)",
                   fontFamily: "'Inria Serif', serif",
-                  fontSize: 32,
+                  fontSize: 28,
                   fontWeight: 600,
                   letterSpacing: "-0.01em",
                   animationDelay: `${900 + i * 120}ms`,
