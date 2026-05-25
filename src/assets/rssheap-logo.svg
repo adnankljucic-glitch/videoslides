@@ -1,38 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
-  <defs>
-    <linearGradient id="rh-grad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FF8A3D"/>
-      <stop offset="100%" stop-color="#F26B1F"/>
-    </linearGradient>
-    <linearGradient id="rh-grad2" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFB266"/>
-      <stop offset="100%" stop-color="#FF8A3D"/>
-    </linearGradient>
-    <linearGradient id="rh-grad3" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFD199"/>
-      <stop offset="100%" stop-color="#FFB266"/>
-    </linearGradient>
-  </defs>
-
-  <!-- Heap: three stacked rounded tiles, each with RSS waves -->
-  <!-- Back tile -->
-  <g transform="translate(96 96)" opacity="0.55">
-    <rect width="320" height="320" rx="64" fill="url(#rh-grad3)"/>
-  </g>
-  <!-- Middle tile -->
-  <g transform="translate(80 128)" opacity="0.85">
-    <rect width="320" height="320" rx="64" fill="url(#rh-grad2)"/>
-  </g>
-  <!-- Front tile with RSS mark -->
-  <g transform="translate(64 160)">
-    <rect width="320" height="320" rx="64" fill="url(#rh-grad)"/>
-    <g transform="translate(72 72)" fill="#FFFFFF">
-      <!-- dot -->
-      <circle cx="32" cy="144" r="24"/>
-      <!-- inner arc -->
-      <path d="M0 56 A88 88 0 0 1 88 144 H48 A48 48 0 0 0 0 96 Z"/>
-      <!-- outer arc -->
-      <path d="M0 0 A176 176 0 0 1 176 176 H136 A136 136 0 0 0 0 40 Z"/>
-    </g>
+  <g fill="#3D4DFF">
+    <rect x="56"  y="232" width="36" height="48"  rx="10"/>
+    <rect x="128" y="192" width="36" height="128" rx="10"/>
+    <rect x="200" y="120" width="36" height="272" rx="12"/>
+    <rect x="276" y="120" width="36" height="272" rx="12"/>
+    <rect x="348" y="192" width="36" height="128" rx="10"/>
+    <rect x="420" y="232" width="36" height="48"  rx="10"/>
   </g>
 </svg>
