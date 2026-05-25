@@ -31,6 +31,28 @@
 .rocket-float { animation: rocket-float 6s ease-in-out infinite; }
 .orbit-pulse  { animation: orbit-pulse 4.5s ease-in-out infinite; }
 
+/* Subtle parallax drift for background video + gradient overlays */
+@keyframes bg-parallax-video {
+  0%, 100% { transform: scale(1.08) translate3d(-1.2%, -0.8%, 0); }
+  50%      { transform: scale(1.08) translate3d(1.2%, 0.8%, 0); }
+}
+@keyframes bg-parallax-overlay {
+  0%, 100% { transform: scale(1.05) translate3d(1%, 0.6%, 0); }
+  50%      { transform: scale(1.05) translate3d(-1%, -0.6%, 0); }
+}
+.bg-parallax-video {
+  animation: bg-parallax-video 24s ease-in-out infinite;
+  will-change: transform;
+}
+.bg-parallax-overlay {
+  animation: bg-parallax-overlay 30s ease-in-out infinite;
+  will-change: transform;
+}
+.bg-parallax-overlay-slow {
+  animation: bg-parallax-overlay 40s ease-in-out infinite reverse;
+  will-change: transform;
+}
+
 
 @custom-variant dark (&:is(.dark *));
 
