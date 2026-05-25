@@ -95,12 +95,10 @@ export function Slide03Products() {
                   width: 280,
                   height: 280,
                   borderRadius: 28,
-                  background:
-                    "linear-gradient(155deg, rgba(255,255,255,0.07), rgba(255,255,255,0.015))",
-                  border: "1px solid rgba(255,255,255,0.14)",
+                  background: "#ffffff",
+                  border: "1px solid rgba(0,0,0,0.06)",
                   boxShadow:
-                    "inset 0 1px 0 rgba(255,255,255,0.18), 0 20px 50px rgba(10,5,40,0.35)",
-                  backdropFilter: "blur(4px)",
+                    "0 4px 24px rgba(0,0,0,0.08), 0 20px 50px rgba(10,5,40,0.12)",
                 }}
               >
                 <img
