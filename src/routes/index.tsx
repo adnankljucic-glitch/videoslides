@@ -6,6 +6,7 @@ import { Slide02Services } from "@/components/slides/Slide02Services";
 import { Slide03Products } from "@/components/slides/Slide03Products";
 import { Slide03Boostr } from "@/components/slides/Slide03Boostr";
 import { Slide04LMS } from "@/components/slides/Slide04LMS";
+import { Slide05Rssheap } from "@/components/slides/Slide05Rssheap";
 
 export const Route = createFileRoute("/")({
   head: () => ({
