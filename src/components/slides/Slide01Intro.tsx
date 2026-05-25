@@ -78,7 +78,7 @@ export function Slide01Intro() {
           style={{
             fontFamily: "'Barlow', sans-serif",
             fontSize: 20,
-            fontWeight: 400,
+            fontWeight: 600,
             letterSpacing: "0.35em",
             textTransform: "uppercase",
             animationDelay: "1000ms",
