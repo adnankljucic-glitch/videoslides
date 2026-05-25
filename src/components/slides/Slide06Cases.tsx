@@ -32,10 +32,10 @@ export function Slide06Cases() {
           className="mt-[32px] text-white slide-rise"
           style={{
             fontFamily: "'Inria Serif', 'Times New Roman', serif",
-            fontSize: 140,
+            fontSize: 96,
             fontWeight: 700,
-            lineHeight: 0.95,
-            letterSpacing: "-0.04em",
+            lineHeight: 1.1,
+            letterSpacing: "-0.03em",
             animationDelay: "350ms",
           }}
         >
@@ -44,16 +44,16 @@ export function Slide06Cases() {
           that move the world.
         </h1>
 
-        <div className="mt-[64px] flex flex-wrap items-baseline justify-center gap-x-[72px] gap-y-[20px]">
+        <div className="mt-[56px] flex flex-wrap items-baseline justify-center gap-x-[72px] gap-y-[20px]">
           {industries.map((name, i) => (
             <span
               key={name}
               className="text-white slide-rise"
               style={{
-                fontFamily: "'Inria Serif', serif",
-                fontSize: 64,
+                fontFamily: "'Inria Serif', 'Times New Roman', serif",
+                fontSize: 96,
                 fontWeight: 700,
-                lineHeight: 1.08,
+                lineHeight: 1.1,
                 letterSpacing: "-0.03em",
                 background:
                   "linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.65) 100%)",
