@@ -40,7 +40,7 @@ export function Slide03Products() {
           <div
             className="text-white/55 slide-fade-in"
             style={{
-              fontFamily: "'Roboto', sans-serif",
+              fontFamily: "'Barlow', sans-serif",
               fontSize: 22,
               fontWeight: 500,
               letterSpacing: "0.45em",
@@ -108,7 +108,7 @@ export function Slide03Products() {
               <div
                 className="mt-[28px] text-white"
                 style={{
-                  fontFamily: "'Roboto', sans-serif",
+                  fontFamily: "'Barlow', sans-serif",
                   fontSize: 36,
                   fontWeight: 700,
                   letterSpacing: "0.04em",
@@ -120,7 +120,7 @@ export function Slide03Products() {
               <div
                 className="mt-[8px] text-white/50"
                 style={{
-                  fontFamily: "'Roboto', sans-serif",
+                  fontFamily: "'Barlow', sans-serif",
                   fontSize: 18,
                   letterSpacing: "0.25em",
                   textTransform: "uppercase",

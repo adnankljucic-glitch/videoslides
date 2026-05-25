@@ -49,7 +49,7 @@ export function Slide04LMS() {
             <div
               className="text-white/55 slide-fade-in"
               style={{
-                fontFamily: "'Roboto', sans-serif",
+                fontFamily: "'Barlow', sans-serif",
                 fontSize: 22,
                 fontWeight: 500,
                 letterSpacing: "0.45em",
@@ -91,7 +91,7 @@ export function Slide04LMS() {
             <p
               className="mt-[56px] text-white/80 slide-rise"
               style={{
-                fontFamily: "'Roboto', sans-serif",
+                fontFamily: "'Barlow', sans-serif",
                 fontSize: 30,
                 fontWeight: 400,
                 lineHeight: 1.55,
@@ -116,7 +116,7 @@ export function Slide04LMS() {
                 rel="noreferrer"
                 className="inline-flex items-center gap-[14px] rounded-full px-[28px] py-[16px]"
                 style={{
-                  fontFamily: "'Roboto', sans-serif",
+                  fontFamily: "'Barlow', sans-serif",
                   fontSize: 22,
                   fontWeight: 500,
                   background:
@@ -130,7 +130,7 @@ export function Slide04LMS() {
               <span
                 className="text-white/60"
                 style={{
-                  fontFamily: "'Roboto', sans-serif",
+                  fontFamily: "'Barlow', sans-serif",
                   fontSize: 20,
                   letterSpacing: "0.2em",
                   textTransform: "uppercase",
@@ -195,7 +195,7 @@ export function Slide04LMS() {
             <div
               className="mt-[28px]"
               style={{
-                fontFamily: "'Roboto', sans-serif",
+                fontFamily: "'Barlow', sans-serif",
                 fontSize: 72,
                 fontWeight: 700,
                 letterSpacing: "0.06em",
@@ -208,7 +208,7 @@ export function Slide04LMS() {
             <div
               className="mt-[14px] text-white/55"
               style={{
-                fontFamily: "'Roboto', sans-serif",
+                fontFamily: "'Barlow', sans-serif",
                 fontSize: 18,
                 letterSpacing: "0.45em",
                 textTransform: "uppercase",

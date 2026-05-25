@@ -59,7 +59,7 @@ export function Slide01Intro() {
         <p
           className="mt-[56px] text-white/85 slide-rise"
           style={{
-            fontFamily: "'Roboto', sans-serif",
+            fontFamily: "'Barlow', sans-serif",
             fontSize: 36,
             fontWeight: 400,
             lineHeight: 1.7,
@@ -76,7 +76,7 @@ export function Slide01Intro() {
         <div
           className="mt-[96px] flex items-center gap-[28px] text-white/60 slide-fade-in"
           style={{
-            fontFamily: "'Roboto', sans-serif",
+            fontFamily: "'Barlow', sans-serif",
             fontSize: 20,
             fontWeight: 400,
             letterSpacing: "0.35em",

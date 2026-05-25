@@ -74,7 +74,7 @@ export function Slide10Outro() {
         <div
           className="mt-[48px] flex items-center gap-[28px] text-white/80 slide-fade-in"
           style={{
-            fontFamily: "'Roboto', sans-serif",
+            fontFamily: "'Barlow', sans-serif",
             fontSize: 28,
             fontWeight: 500,
             letterSpacing: "0.04em",
