@@ -58,18 +58,20 @@ function Index() {
       <ScaledSlide key={i}>
         <Current />
       </ScaledSlide>
-      <div className="fixed bottom-4 right-4 z-50 flex gap-2">
-        {slides.map((_, idx) => (
-          <button
-            key={idx}
-            onClick={() => setI(idx)}
-            className={`h-2 w-8 rounded-full transition ${
-              idx === i ? "bg-white" : "bg-white/30 hover:bg-white/60"
-            }`}
-            aria-label={`Slide ${idx + 1}`}
-          />
-        ))}
-      </div>
+      {typeof window !== "undefined" && !new URLSearchParams(window.location.search).has("print") && (
+        <div className="fixed bottom-4 right-4 z-50 flex gap-2">
+          {slides.map((_, idx) => (
+            <button
+              key={idx}
+              onClick={() => setI(idx)}
+              className={`h-2 w-8 rounded-full transition ${
+                idx === i ? "bg-white" : "bg-white/30 hover:bg-white/60"
+              }`}
+              aria-label={`Slide ${idx + 1}`}
+            />
+          ))}
+        </div>
+      )}
     </>
   );
 }
