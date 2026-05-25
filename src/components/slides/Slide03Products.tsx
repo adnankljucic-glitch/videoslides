@@ -75,7 +75,7 @@ export function Slide03Products() {
               animationDelay: "300ms",
             }}
           >
-            Tools we built for ourselves —
+            Tools we built for ourselves.
             <br />
             now available for everyone.
           </h1>
