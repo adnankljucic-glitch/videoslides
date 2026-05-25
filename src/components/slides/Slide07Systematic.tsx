@@ -49,10 +49,10 @@ export function Slide07Systematic() {
             </div>
 
             <div
-              className="mt-[28px] text-white slide-rise"
+              className="mt-[32px] text-white slide-rise"
               style={{
                 fontFamily: "'Inria Serif', 'Times New Roman', serif",
-                fontSize: 160,
+                fontSize: 140,
                 fontWeight: 700,
                 lineHeight: 0.95,
                 letterSpacing: "-0.04em",
@@ -85,7 +85,7 @@ export function Slide07Systematic() {
                 fontSize: 28,
                 fontWeight: 400,
                 lineHeight: 1.45,
-                maxWidth: 720,
+                maxWidth: 760,
                 animationDelay: "750ms",
               }}
             >
