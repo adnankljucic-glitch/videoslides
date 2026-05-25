@@ -106,7 +106,10 @@ export function Slide06Cases() {
               className="flex flex-col items-center slide-rise"
               style={{ animationDelay: `${550 + i * 160}ms` }}
             >
-              <div className="w-[120px] h-[120px] text-white/85 mb-[20px]">
+              <div
+                className="w-[140px] h-[140px] mb-[20px]"
+                style={{ color: "#9ec3ff" }}
+              >
                 <Icon />
               </div>
               <span
