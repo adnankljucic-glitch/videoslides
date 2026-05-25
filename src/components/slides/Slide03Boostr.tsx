@@ -42,22 +42,9 @@ export function Slide03Boostr() {
       <img
         src={mausLogo}
         alt="MAUS"
-        className="absolute top-[80px] left-[100px] h-[60px] w-auto slide-fade-in"
+        className="absolute top-[80px] right-[100px] h-[60px] w-auto slide-fade-in"
         style={{ animationDelay: "100ms" }}
       />
-
-      {/* Page indicator */}
-      <div
-        className="absolute top-[96px] right-[100px] text-white/50 slide-fade-in"
-        style={{
-          fontFamily: "'Roboto', sans-serif",
-          fontSize: 20,
-          letterSpacing: "0.2em",
-          animationDelay: "100ms",
-        }}
-      >
-        04 / —
-      </div>
 
       {/* Two-column layout */}
       <div className="absolute inset-0 grid grid-cols-[1.15fr_1fr] items-center gap-[80px] px-[160px]">
