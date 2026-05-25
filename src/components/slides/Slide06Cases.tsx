@@ -13,7 +13,7 @@ export function Slide06Cases() {
         style={{ animationDelay: "100ms" }}
       />
 
-      <div className="absolute inset-0 flex flex-col justify-center px-[160px]">
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-[160px]">
         <div
           className="text-white/60 slide-fade-in"
           style={{
@@ -44,7 +44,7 @@ export function Slide06Cases() {
           that move the world.
         </h1>
 
-        <div className="mt-[64px] flex flex-wrap items-baseline gap-x-[72px] gap-y-[20px]">
+        <div className="mt-[64px] flex flex-wrap items-baseline justify-center gap-x-[72px] gap-y-[20px]">
           {industries.map((name, i) => (
             <span
               key={name}
