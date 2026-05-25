@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { ScaledSlide } from "@/components/slides/ScaledSlide";
 import { Slide01Intro } from "@/components/slides/Slide01Intro";
 import { Slide02Services } from "@/components/slides/Slide02Services";
+import { Slide03Products } from "@/components/slides/Slide03Products";
 import { Slide03Boostr } from "@/components/slides/Slide03Boostr";
 
 export const Route = createFileRoute("/")({
@@ -25,7 +26,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const slides = [Slide01Intro, Slide02Services, Slide03Boostr];
+const slides = [Slide01Intro, Slide02Services, Slide03Products, Slide03Boostr];
 
 function Index() {
   const [i, setI] = useState(1);
