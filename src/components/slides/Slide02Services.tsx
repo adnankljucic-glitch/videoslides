@@ -65,7 +65,7 @@ export function Slide02Services() {
             <br />
             engineering
             <br />
-            and AI — unified.
+            and AI unified.
           </h1>
 
           <p
@@ -79,7 +79,7 @@ export function Slide02Services() {
               animationDelay: "650ms",
             }}
           >
-            From idea to production — no shortcuts,
+            From idea to production. No shortcuts,
             <br />
             no technical debt.
           </p>
