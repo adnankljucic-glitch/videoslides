@@ -32,27 +32,13 @@ export function Slide01Intro() {
       />
       <div className="relative w-full h-full">
 
-      {/* Logo, top left */}
+      {/* Logo, top right */}
       <img
         src={mausLogo}
         alt="MAUS"
-        className="absolute top-[80px] left-[100px] h-[60px] w-auto slide-fade-in"
+        className="absolute top-[80px] right-[100px] h-[60px] w-auto slide-fade-in"
         style={{ animationDelay: "100ms" }}
       />
-
-      {/* Page indicator, top right */}
-      <div
-        className="absolute top-[96px] right-[100px] text-white/50 slide-fade-in"
-        style={{
-          fontFamily: "'Roboto', sans-serif",
-          fontSize: 20,
-          fontWeight: 400,
-          letterSpacing: "0.2em",
-          animationDelay: "100ms",
-        }}
-      >
-        01 / —
-      </div>
 
       {/* Centered headline + sub */}
       <div className="absolute inset-0 flex flex-col items-center justify-center px-[160px] text-center">
