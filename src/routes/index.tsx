@@ -36,7 +36,12 @@ export const Route = createFileRoute("/")({
 const slides = [Slide01Intro, Slide02Services, Slide03Products, Slide03Boostr, Slide04LMS, Slide05Rssheap, Slide06Cases, Slide07Systematic, Slide08Nordsee, Slide09RunEvents, Slide10Outro];
 
 function Index() {
-  const [i, setI] = useState(1);
+  const [i, setI] = useState(() => {
+    if (typeof window === "undefined") return 0;
+    const p = new URLSearchParams(window.location.search).get("slide");
+    const n = p ? parseInt(p, 10) - 1 : 0;
+    return Number.isFinite(n) && n >= 0 && n < slides.length ? n : 0;
+  });
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -53,18 +58,20 @@ function Index() {
       <ScaledSlide key={i}>
         <Current />
       </ScaledSlide>
-      <div className="fixed bottom-4 right-4 z-50 flex gap-2">
-        {slides.map((_, idx) => (
-          <button
-            key={idx}
-            onClick={() => setI(idx)}
-            className={`h-2 w-8 rounded-full transition ${
-              idx === i ? "bg-white" : "bg-white/30 hover:bg-white/60"
-            }`}
-            aria-label={`Slide ${idx + 1}`}
-          />
-        ))}
-      </div>
+      {typeof window !== "undefined" && !new URLSearchParams(window.location.search).has("print") && (
+        <div className="fixed bottom-4 right-4 z-50 flex gap-2">
+          {slides.map((_, idx) => (
+            <button
+              key={idx}
+              onClick={() => setI(idx)}
+              className={`h-2 w-8 rounded-full transition ${
+                idx === i ? "bg-white" : "bg-white/30 hover:bg-white/60"
+              }`}
+              aria-label={`Slide ${idx + 1}`}
+            />
+          ))}
+        </div>
+      )}
     </>
   );
 }
