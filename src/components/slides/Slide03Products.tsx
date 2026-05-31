@@ -2,6 +2,7 @@ import mausLogo from "@/assets/maus-logo.svg";
 import boostrRocket from "@/assets/boostr-rocket.png";
 import mausLmsLogo from "@/assets/maus-lms-logo.svg";
 import rssheapLogo from "@/assets/rssheap-logo.svg";
+import makLogo from "@/assets/mak-logo.png";
 import { SlideLayout } from "./SlideLayout";
 
 const products = [
@@ -19,6 +20,11 @@ const products = [
     name: "rssheap",
     logo: rssheapLogo,
     description: "RSS Aggregator",
+  },
+  {
+    name: "MAK LUMO",
+    logo: makLogo,
+    description: "Smart Mailbox · IoT",
   },
 ];
 
