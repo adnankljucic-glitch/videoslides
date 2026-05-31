@@ -22,7 +22,7 @@ const products = [
     description: "RSS Aggregator",
   },
   {
-    name: "MAK LUMO",
+    name: "MAK",
     logo: makLogo,
     description: "Smart Mailbox · IoT",
   },
@@ -102,8 +102,8 @@ export function Slide03Products() {
                   loading="lazy"
                   className="object-contain"
                   style={{
-                    width: p.name === "MAK LUMO" ? 170 : 140,
-                    height: p.name === "MAK LUMO" ? "auto" : 140,
+                    width: p.name === "MAK" ? 170 : 140,
+                    height: p.name === "MAK" ? "auto" : 140,
                     filter: p.name === "Boostr"
                       ? "drop-shadow(0 10px 30px rgba(20,10,80,0.4))"
                       : "drop-shadow(0 10px 30px rgba(0,0,0,0.3))",
