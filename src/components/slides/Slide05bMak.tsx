@@ -158,7 +158,7 @@ export function Slide05bMak() {
             </div>
 
             <div
-              className="mt-[44px] flex items-center gap-[20px] slide-rise"
+              className="mt-[44px] slide-rise"
               style={{ animationDelay: "1100ms" }}
             >
               <a
@@ -178,17 +178,6 @@ export function Slide05bMak() {
               >
                 smart-mak.com
               </a>
-              <span
-                className="text-white/60"
-                style={{
-                  fontFamily: "'Barlow', sans-serif",
-                  fontSize: 20,
-                  letterSpacing: "0.2em",
-                  textTransform: "uppercase",
-                }}
-              >
-                Free app · No subscription
-              </span>
             </div>
           </div>
 
