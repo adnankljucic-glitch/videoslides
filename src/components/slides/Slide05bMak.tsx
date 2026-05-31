@@ -157,28 +157,6 @@ export function Slide05bMak() {
               ))}
             </div>
 
-            <div
-              className="mt-[44px] slide-rise"
-              style={{ animationDelay: "1100ms" }}
-            >
-              <a
-                href="https://www.smart-mak.com"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-[14px] rounded-full px-[28px] py-[16px]"
-                style={{
-                  fontFamily: "'Barlow', sans-serif",
-                  fontSize: 22,
-                  fontWeight: 500,
-                  background:
-                    "linear-gradient(90deg, #2dd4a8 0%, #0f9e88 100%)",
-                  color: "#03100f",
-                  boxShadow: "0 14px 40px rgba(15,158,136,0.45)",
-                }}
-              >
-                smart-mak.com
-              </a>
-            </div>
           </div>
 
           {/* RIGHT — MAK lockup */}
