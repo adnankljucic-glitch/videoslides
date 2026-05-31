@@ -32,7 +32,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const slides = [Slide01Intro, Slide02Services, Slide03Products, Slide03Boostr, Slide04LMS, Slide05Rssheap, Slide06Cases, Slide07Systematic, Slide08Nordsee, Slide09RunEvents, Slide10Outro];
+const slides = [Slide01Intro, Slide03Products, Slide03Boostr, Slide04LMS, Slide05Rssheap, Slide06Cases, Slide07Systematic, Slide08Nordsee, Slide09RunEvents, Slide10Outro];
 
 function Index() {
   const [i, setI] = useState(() => {
