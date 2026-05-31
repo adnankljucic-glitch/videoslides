@@ -2,7 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { ScaledSlide } from "@/components/slides/ScaledSlide";
 import { Slide01Intro } from "@/components/slides/Slide01Intro";
-import { Slide02Services } from "@/components/slides/Slide02Services";
 import { Slide03Products } from "@/components/slides/Slide03Products";
 import { Slide03Boostr } from "@/components/slides/Slide03Boostr";
 import { Slide04LMS } from "@/components/slides/Slide04LMS";
@@ -33,7 +32,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const slides = [Slide01Intro, Slide02Services, Slide03Products, Slide03Boostr, Slide04LMS, Slide05Rssheap, Slide06Cases, Slide07Systematic, Slide08Nordsee, Slide09RunEvents, Slide10Outro];
+const slides = [Slide01Intro, Slide03Products, Slide03Boostr, Slide04LMS, Slide05Rssheap, Slide06Cases, Slide07Systematic, Slide08Nordsee, Slide09RunEvents, Slide10Outro];
 
 function Index() {
   const [i, setI] = useState(() => {
