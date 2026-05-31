@@ -2,6 +2,7 @@ import mausLogo from "@/assets/maus-logo.svg";
 import boostrRocket from "@/assets/boostr-rocket.png";
 import mausLmsLogo from "@/assets/maus-lms-logo.svg";
 import rssheapLogo from "@/assets/rssheap-logo.svg";
+import makLogo from "@/assets/mak-logo.png";
 import { SlideLayout } from "./SlideLayout";
 
 const products = [
@@ -19,6 +20,11 @@ const products = [
     name: "rssheap",
     logo: rssheapLogo,
     description: "RSS Aggregator",
+  },
+  {
+    name: "MAK LUMO",
+    logo: makLogo,
+    description: "Smart Mailbox · IoT",
   },
 ];
 
@@ -69,7 +75,7 @@ export function Slide03Products() {
         </div>
 
         {/* Product cards */}
-        <div className="mt-[80px] grid grid-cols-3 gap-[40px]">
+        <div className="mt-[72px] grid grid-cols-4 gap-[32px]">
           {products.map((p, i) => (
             <div
               key={p.name}
@@ -79,8 +85,8 @@ export function Slide03Products() {
               <div
                 className="relative flex items-center justify-center"
                 style={{
-                  width: 280,
-                  height: 280,
+                  width: 240,
+                  height: 240,
                   borderRadius: 28,
                   background: "#ffffff",
                   border: "1px solid rgba(0,0,0,0.06)",
@@ -96,8 +102,8 @@ export function Slide03Products() {
                   loading="lazy"
                   className="object-contain"
                   style={{
-                    width: 160,
-                    height: 160,
+                    width: p.name === "MAK LUMO" ? 170 : 140,
+                    height: p.name === "MAK LUMO" ? "auto" : 140,
                     filter: p.name === "Boostr"
                       ? "drop-shadow(0 10px 30px rgba(20,10,80,0.4))"
                       : "drop-shadow(0 10px 30px rgba(0,0,0,0.3))",
@@ -109,13 +115,14 @@ export function Slide03Products() {
                 className="mt-[28px] text-white"
                 style={{
                   fontFamily: "'Barlow', sans-serif",
-                  fontSize: 36,
+                  fontSize: 34,
                   fontWeight: 700,
                   letterSpacing: "0.04em",
                 }}
               >
                 {p.name}
               </div>
+
 
               <div
                 className="mt-[8px] text-white/50"

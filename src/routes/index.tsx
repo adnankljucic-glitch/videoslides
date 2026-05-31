@@ -6,6 +6,7 @@ import { Slide03Products } from "@/components/slides/Slide03Products";
 import { Slide03Boostr } from "@/components/slides/Slide03Boostr";
 import { Slide04LMS } from "@/components/slides/Slide04LMS";
 import { Slide05Rssheap } from "@/components/slides/Slide05Rssheap";
+import { Slide05bMak } from "@/components/slides/Slide05bMak";
 import { Slide06Cases } from "@/components/slides/Slide06Cases";
 import { Slide07Systematic } from "@/components/slides/Slide07Systematic";
 import { Slide08Nordsee } from "@/components/slides/Slide08Nordsee";
@@ -32,7 +33,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const slides = [Slide01Intro, Slide03Products, Slide03Boostr, Slide04LMS, Slide05Rssheap, Slide06Cases, Slide07Systematic, Slide08Nordsee, Slide09RunEvents, Slide10Outro];
+const slides = [Slide01Intro, Slide03Products, Slide03Boostr, Slide04LMS, Slide05Rssheap, Slide05bMak, Slide06Cases, Slide07Systematic, Slide08Nordsee, Slide09RunEvents, Slide10Outro];
 
 function Index() {
   const [i, setI] = useState(() => {
