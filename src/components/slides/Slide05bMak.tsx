@@ -249,7 +249,7 @@ export function Slide05bMak() {
                 color: "#ffffff",
               }}
             >
-              MAK LUMO
+              MAK
             </div>
 
             <div
@@ -261,7 +261,7 @@ export function Slide05bMak() {
                 textTransform: "uppercase",
               }}
             >
-              Smart Mailbox · Video Intercom
+              Smart Mailbox
             </div>
           </div>
         </div>
