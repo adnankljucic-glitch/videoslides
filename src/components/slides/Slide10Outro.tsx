@@ -73,29 +73,33 @@ export function Slide10Outro() {
         </div>
 
         <div
-          className="mt-[48px] flex items-center gap-[24px] slide-fade-in"
+          className="mt-[56px] flex items-center gap-[32px] slide-fade-in"
           style={{ animationDelay: "950ms" }}
         >
           <a
             href="mailto:hello@maus.ba"
-            className="px-[32px] py-[16px] rounded-full border-2 border-white/70 text-white hover:text-white hover:border-white hover:bg-white/15 transition-all duration-300"
+            className="px-[48px] py-[22px] rounded-full text-white hover:opacity-90 transition-all duration-300"
             style={{
               fontFamily: "'Barlow', sans-serif",
-              fontSize: 32,
+              fontSize: 38,
               fontWeight: 600,
               letterSpacing: "0.02em",
+              background: "linear-gradient(90deg, #4f46e5 0%, #7c3aed 100%)",
+              boxShadow: "0 16px 50px rgba(79,70,229,0.55)",
             }}
           >
             hello@maus.ba
           </a>
           <a
             href="https://maus.ba"
-            className="px-[32px] py-[16px] rounded-full border-2 border-white/70 text-white hover:text-white hover:border-white hover:bg-white/15 transition-all duration-300"
+            className="px-[48px] py-[22px] rounded-full text-white hover:opacity-90 transition-all duration-300"
             style={{
               fontFamily: "'Barlow', sans-serif",
-              fontSize: 32,
+              fontSize: 38,
               fontWeight: 600,
               letterSpacing: "0.02em",
+              background: "linear-gradient(90deg, #4f46e5 0%, #7c3aed 100%)",
+              boxShadow: "0 16px 50px rgba(79,70,229,0.55)",
             }}
           >
             maus.ba
