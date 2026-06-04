@@ -25,7 +25,7 @@ export function Slide10Outro() {
           className="mt-[48px] text-white/85 slide-rise"
           style={{
             fontFamily: "'Inria Serif', 'Times New Roman', serif",
-            fontSize: 56,
+            fontSize: 42,
             fontWeight: 700,
             lineHeight: 1.25,
             letterSpacing: "-0.02em",
@@ -39,10 +39,10 @@ export function Slide10Outro() {
         </p>
 
         <h1
-          className="mt-[40px] text-white slide-rise"
+          className="mt-[32px] text-white slide-rise"
           style={{
             fontFamily: "'Inria Serif', 'Times New Roman', serif",
-            fontSize: 56,
+            fontSize: 42,
             fontWeight: 700,
             lineHeight: 1.25,
             letterSpacing: "-0.02em",
@@ -59,10 +59,10 @@ export function Slide10Outro() {
         </h1>
 
         <div
-          className="mt-[40px] text-white slide-rise"
+          className="mt-[32px] text-white slide-rise"
           style={{
             fontFamily: "'Inria Serif', 'Times New Roman', serif",
-            fontSize: 56,
+            fontSize: 42,
             fontWeight: 700,
             lineHeight: 1.25,
             letterSpacing: "-0.02em",
@@ -73,15 +73,15 @@ export function Slide10Outro() {
         </div>
 
         <div
-          className="mt-[40px] flex items-center gap-[20px] slide-fade-in"
+          className="mt-[48px] flex items-center gap-[24px] slide-fade-in"
           style={{ animationDelay: "950ms" }}
         >
           <a
             href="mailto:hello@maus.ba"
-            className="px-[24px] py-[12px] rounded-full border border-white/30 text-white/90 hover:text-white hover:border-white/60 hover:bg-white/10 transition-all duration-300"
+            className="px-[32px] py-[16px] rounded-full border-2 border-white/70 text-white hover:text-white hover:border-white hover:bg-white/15 transition-all duration-300"
             style={{
               fontFamily: "'Barlow', sans-serif",
-              fontSize: 28,
+              fontSize: 32,
               fontWeight: 600,
               letterSpacing: "0.02em",
             }}
@@ -90,10 +90,10 @@ export function Slide10Outro() {
           </a>
           <a
             href="https://maus.ba"
-            className="px-[24px] py-[12px] rounded-full border border-white/30 text-white/90 hover:text-white hover:border-white/60 hover:bg-white/10 transition-all duration-300"
+            className="px-[32px] py-[16px] rounded-full border-2 border-white/70 text-white hover:text-white hover:border-white hover:bg-white/15 transition-all duration-300"
             style={{
               fontFamily: "'Barlow', sans-serif",
-              fontSize: 28,
+              fontSize: 32,
               fontWeight: 600,
               letterSpacing: "0.02em",
             }}
